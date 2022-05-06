@@ -1,0 +1,58 @@
+.top-heading{
+    position: relative;
+    padding: 0 20px;
+    h1{
+    text-transform: capitalize;
+    color: #000;
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0 30px 0;
+    }
+}
+.content-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 20px;
+    margin-bottom: 25px;
+    .city{
+        width: 32%;
+        label{
+            margin-right: 11px;
+            text-transform: capitalize;
+        }
+    }
+    select{
+    width: 41%;
+    height: 41px;
+    padding: 5px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    &:focus{
+        border: 1px solid #ced4da;
+    }
+    }
+    .btn{
+        color: #0d6efd;
+    padding: 6px 15px;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 600;
+    transition: 0.4s;
+    &:hover{
+        color: #fff;
+
+    }
+    }
+}
+.header{
+    h1{
+        display: block;
+        align-items: center;
+    }
+}
+.table-area{
+    position: relative;
+    padding: 0 20px;
+}

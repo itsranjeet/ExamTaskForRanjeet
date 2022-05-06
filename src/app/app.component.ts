@@ -109,6 +109,7 @@ export class AppComponent {
       if (res.isSuccess) {
         this.toastr.success('Added SuccessFully', 'Success');
         this.modalService.dismissAll();
+        this.getAllManufacturer();
       }
       else {
         console.log('error')
